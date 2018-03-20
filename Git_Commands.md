@@ -7,8 +7,8 @@ $ git config --global user.email "USERNAME@EMAIL.COM"
 ```
 #### (Optional) Cache your GitHub password in Git if you using Linux
 ```sh
-$ git config --global credential.helper cache                       # Password cached by default 15 minutes
-$ git config --global credential.helper 'cache --timeout=3600'      # set a longer timeout, 1 hour
+$ git config --global credential.helper cache                   # password cached by default 15 minutes
+$ git config --global credential.helper 'cache --timeout=3600'  # set a longer timeout, 1 hour
 ```
 --------------------------------------------------------------------------------
 #### Create a new repository
@@ -79,8 +79,8 @@ $ git push -u origin BRANCH_NAME
 --------------------------------------------------------------------------------
 #### Delete a repository's commit history in Github
 ```sh
-$ rm -rf .git                           # all commit history will be gone, so you might need to backup it
+$ rm -rf .git                           # all commit history will be gone, so you may need to backup
 $ git add .
-$ git commit -m "initial commit"
+$ git commit -m "YOUR COMMENT"
 $ git remote add origin https://github.com/USERNAME/REPOSITORY.git
 $ git push -u --force origin master
