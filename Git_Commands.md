@@ -5,10 +5,10 @@
 $ git config --global user.name "USERNAME"
 $ git config --global user.email "USERNAME@EMAIL.COM"
 ```
-#### (Option) Cache your GitHub password in Git if using Linux
+#### (Optional) Cache your GitHub password in Git if you using Linux
 ```sh
-$ git config --global credential.helper cache                       # your password cached by default 15 minutes
-$ git config --global credential.helper 'cache --timeout=3600'      # set a longer timeout 1 hour
+$ git config --global credential.helper cache                       # Password cached by default 15 minutes
+$ git config --global credential.helper 'cache --timeout=3600'      # set a longer timeout, 1 hour
 ```
 --------------------------------------------------------------------------------
 #### Create a new repository
@@ -70,10 +70,17 @@ $ git clone https://github.com/USERNAME/REPOSITORY.git      # download your team
 $ git pull
 $ git branch BRANCH_NAME                                    # create a new branch (avoid to use master)
 $ git checkout BRANCH_NAME
-```
-#### After coding, update your code to the repository
-```sh
+
+# update your code to the repository after your coding
 $ git add .
 $ git commit -m "YOUR COMMENT"
 $ git push -u origin BRANCH_NAME
 ```
+--------------------------------------------------------------------------------
+#### Delete a repository's commit history in Github
+```sh
+$ rm -rf .git                           # all commit history will be gone, so you might need to backup it
+$ git add .
+$ git commit -m "initial commit"
+$ git remote add origin https://github.com/USERNAME/REPOSITORY.git
+$ git push -u --force origin master
