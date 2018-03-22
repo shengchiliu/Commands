@@ -5,7 +5,7 @@
 $ git config --global user.name "USERNAME"
 $ git config --global user.email "USERNAME@EMAIL.COM"
 ```
-#### (Optional) Cache your GitHub password in Git if you using Linux
+#### Cache your GitHub password in Git if you using Linux (Optional)
 ```sh
 $ git config --global credential.helper cache                   # password cached by default 15 minutes
 $ git config --global credential.helper 'cache --timeout=3600'  # set a longer timeout, 1 hour
