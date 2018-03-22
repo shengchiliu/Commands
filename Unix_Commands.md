@@ -1,7 +1,7 @@
 # Useful Unix Commands
 
-| **Command** | **Description** |
-| **-----** | ---------- |
+| Command | Description |
+| ----- | ---------- |
 | cat | display or concatenate files |
 | cd | change directory |
 | chmod | change the permissions on a file or directory |
