@@ -37,6 +37,14 @@ $ git add .                             # add all the files you modified/added i
 $ git commit -m "YOUR COMMENT"          # saved in your local repository
 $ git push -u origin master             # update to your remote repository
 ```
+
+#### Rename a file in your repository
+```sh
+$ git mv OLD_FILE_NAME.XXX NEW_FILE_NAME.XXX
+$ git commit -m "YOUR COMMENT"
+$ git push -u origin master
+```
+
 #### Remove a file in your repository
 ```sh
 $ rm -rf FILE_NAME.XXX
