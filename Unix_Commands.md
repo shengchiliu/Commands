@@ -1,4 +1,4 @@
-# Useful Unix Commands
+# 30 Useful Unix Commands
 
 | **Command** | **Description** |
 | :-----: | ---------- |
@@ -33,4 +33,4 @@
 | **talk** | talk to another user |
 | **wc** | display a count of lines, words and characters |
 
-* This index of commands is originally from a leaflet called *Thirty Useful Unix Commands* written by University of Cambridge Information Services (UIS).
+* This index of commands is originally from a leaflet called *Thirty Useful Unix Commands* written by the University of Cambridge Information Services (UIS).
