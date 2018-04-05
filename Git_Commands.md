@@ -11,7 +11,7 @@ $ git config --global credential.helper 'cache --timeout=3600'  # set a longer t
 ```
 ---
 
-### Commands for Repository (Local & Remote)
+### Commands for Repository
 ```sh
 # Create Repository
 # (add a new repository on your GitHub first, and then type the following commands)
@@ -34,7 +34,7 @@ $ git pull
 
 # Rename Repository
 # Rename a new repository on GitHub first
-$ git remote -v                             # view the remote GitHub URL
+$ git remote -v                                         # view the remote GitHub URL
 $ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
 # Remove Repository
