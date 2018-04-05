@@ -64,6 +64,7 @@ $ git push -u origin master
 $ git branch                            # list all branches
 $ git branch BRANCH_NAME                # create a new branch
 $ git checkout BRANCH_NAME              # switch a branch to another
+$ git checkout -b BRANCH_NAME           # create and then switch branch
 $ git branch -d BRANCH_NAME             # delete a branch
 ```
 #### Change to a new remote's URL

@@ -12,6 +12,7 @@
 ```
 [comment]: <put comments here!>
 ```
+[comment]: <https://github.com/flot/flot/blob/master/API.md>
 
 #### Quoting text
 ```
