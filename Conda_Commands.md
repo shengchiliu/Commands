@@ -17,7 +17,7 @@ $ conda create --name ENVIRONMENT_NAME python=3.5                       # create
 $ conda create --name ENVIRONMENT_NAME_NEW --clone ENVIRONMENT_NAME_OLD # clone an environment
 
 # Activate/Deactivate Environment
-$ source activate ENVIRONMENT_NAME		                                # (Windows) activate ENVIRONMENT_NAME
+$ source activate ENVIRONMENT_NAME                                      # (Windows) activate ENVIRONMENT_NAME
 $ source deactivate	                                                    # (Windows) deactivate
 
 # Delete Environment
@@ -30,14 +30,14 @@ $ conda remove --name ENVIRONMENT_NAME --all
 $ conda list
 
 # Install Package
-$ conda install --name ENVIRONMENT_NAME PACKAGE_NAME                    # install in a specific environment
-$ conda install PACKAGE_NAME                                            # install in the current environment
+$ conda install --name ENVIRONMENT_NAME PACKAGE_NAME                    # installed in a specific environment
+$ conda install PACKAGE_NAME                                            # installed in the current environment
 
 # Remove a package
-$ conda remove --name ENVIRONMENT_NAME PACKAGE_NAME                     # remove in a specific environment
-$ conda remove PACKAGE_NAME                                             # remove in a specific environment
+$ conda remove --name ENVIRONMENT_NAME PACKAGE_NAME                     # removed from a specific environment
+$ conda remove PACKAGE_NAME                                             # removed from the current environment
 
 # Search Package
-$ conda search PACKAGE_NAME                                             # Show Python Versions
+$ conda search PACKAGE_NAME                                             # show Python versions
 $ conda search --full-name python
 ```
