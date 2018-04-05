@@ -1,12 +1,5 @@
 # General Markdown Commands
 
-#### Header
-```
-# largest heading
-## second largest heading
-###### smallest heading
-```
-
 #### Styling Text
 ```
 **Bold**
@@ -21,13 +14,15 @@
 ```
 
 #### Quoting text
+```
 > Put text here
+```
 
 #### Code Block
-```
-```
+```sh
+\`\`\`
 Put code here
-```
+\`\`\`
 ```
 
 #### Link
@@ -40,4 +35,14 @@ Put code here
 1. Item
    - 1st Nested Item
      - 2nd Nested Item
+```
+
+#### Escape Brackets
+```
+\[ square brackets \]
+```
+
+#### Escape Angled Brackets
+```
+&lt; angled brackets &gt;
 ```
