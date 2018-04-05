@@ -19,11 +19,11 @@
 ```
 
 #### Code Block
-```sh
-\`\`\`
-Put code here
-\`\`\`
+````
 ```
+Put code here
+```
+````
 
 #### Link
 ```
@@ -37,7 +37,7 @@ Put code here
      - 2nd Nested Item
 ```
 
-#### Escape Brackets
+#### Escape Sign (\\)
 ```
 \[ square brackets \]
 ```
@@ -46,3 +46,12 @@ Put code here
 ```
 &lt; angled brackets &gt;
 ```
+
+#### Escape Code Blocks
+`````
+````
+```
+escape code block
+```
+````
+`````
