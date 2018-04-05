@@ -23,10 +23,10 @@ $ git remote add origin https://github.com/USERNAME/REPOSITORY.git
 $ git push -u origin master
 
 # Update Repository
-$ git status                                # show your git status
-$ git add .                                 # add all the files you modified/added in git index
-$ git commit -m "YOUR COMMENT"              # saved in your local repository
-$ git push -u origin master                 # update to your remote repository
+$ git status                                            # show your git status
+$ git add .                                             # add all modified/added files in git index
+$ git commit -m "YOUR COMMENT"                          # saved in your local repository
+$ git push -u origin master                             # update to your remote repository
 
 # Clone Repository
 $ git clone https://github.com/USERNAME/REPOSITORY.git
@@ -38,7 +38,8 @@ $ git remote -v                             # view the remote GitHub URL
 $ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
 # Remove Repository
-$ rm -rf .git                               # delete local repository, and then delete the repository on GitHub
+$ rm -rf .git                                           # delete local repository
+# (and then delete the repository on GitHub, if you wish to detelte the remote repository
 
 # Remove Repository's Commit History on Github
 $ rm -rf .git
@@ -52,7 +53,7 @@ $ git push -u --force origin master
 ### Commands for Files
 ```sh
 # Update File
-$ git commit -am "YOUR COMMENT"             # update an existing file
+$ git commit -am "YOUR COMMENT"                         # update an existing file
 $ git push -u origin BRANCH_NAME
 
 # Rename File
@@ -61,27 +62,27 @@ $ git commit -m "YOUR COMMENT"
 $ git push -u origin master
 
 # Remove File
-$ git rm --cached FILE_NAME.XXX             # delete file in local repository
-$ git commit -m "YOUR COMMENT"              #
-$ git push -u origin master                 # delete file in remote reporsitory
-$ rm -rf FILE_NAME.XXX                      # delete file in local system
+$ git rm --cached FILE_NAME.XXX                         # delete file in local repository
+$ git commit -m "YOUR COMMENT"                          #
+$ git push -u origin master                             # delete file in remote reporsitory
+$ rm -rf FILE_NAME.XXX                                  # delete file in local system
 ```
 ---
 
 ### Commands for Branch
 ```sh
-$ git branch                                # list all branches
-$ git branch BRANCH_NAME                    # create a new branch
-$ git checkout BRANCH_NAME                  # switch a branch to another
-$ git checkout -b BRANCH_NAME               # shorthand for create and switch branch
-$ git branch -d BRANCH_NAME                 # delete a branch
+$ git branch                                            # list all branches
+$ git branch BRANCH_NAME                                # create a new branch
+$ git checkout BRANCH_NAME                              # switch a branch to another
+$ git checkout -b BRANCH_NAME                           # shorthand for create and switch branch
+$ git branch -d BRANCH_NAME                             # delete a branch
 
 # Merge Changes
-$ git checkout -b BRANCH_NAME               # create and switch to a new branch
-$ git commit -am "YOUR COMMENT"             # commit your changes
-$ git checkout master                       # switch to original branch
-$ git merge -m "YOUR COMMENT" BRANCH_NAME   # merge the changes
-$ git branch -d BRANCH_NAME                 # delete the new branch
+$ git checkout -b BRANCH_NAME                           # create and switch to a new branch
+$ git commit -am "YOUR COMMENT"                         # commit your changes
+$ git checkout master                                   # switch to original branch
+$ git merge -m "YOUR COMMENT" BRANCH_NAME               # merge the changes
+$ git branch -d BRANCH_NAME                             # delete the new branch
 
 # Work with Others in the Same Repository
 $ git clone https://github.com/USERNAME/REPOSITORY.git  # download your team's repository
