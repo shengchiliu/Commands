@@ -2,7 +2,7 @@
 
 ```sh
 $ npm -v                                    # view npm version
-$ npm update
+$ npm i -g npm
 
 # Help
 $ npm help
