@@ -39,7 +39,7 @@ Put code here
 
 #### Escape Sign (\\)
 ```
-\[ square brackets \]
+\[ escape square brackets \]
 ```
 
 #### Escape Angled Brackets
