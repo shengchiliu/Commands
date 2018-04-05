@@ -1,4 +1,4 @@
-# Basic Conda Commands
+# General Conda Commands
 
 ### Update Conda
 ```sh
@@ -41,4 +41,3 @@ $ conda remove PACKAGE_NAME                                             # remove
 $ conda search PACKAGE_NAME                                             # show Python versions
 $ conda search --full-name python
 ```
-[comment]: <test>
