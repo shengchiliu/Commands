@@ -18,7 +18,7 @@ $ conda create --name ENVIRONMENT_NAME_NEW --clone ENVIRONMENT_NAME_OLD # clone 
 
 # Activate/Deactivate Environment
 $ source activate ENVIRONMENT_NAME                                      # (Windows) activate ENVIRONMENT_NAME
-$ source deactivate	                                                    # (Windows) deactivate
+$ source deactivate                                                     # (Windows) deactivate
 
 # Delete Environment
 $ conda remove --name ENVIRONMENT_NAME --all
@@ -41,3 +41,4 @@ $ conda remove PACKAGE_NAME                                             # remove
 $ conda search PACKAGE_NAME                                             # show Python versions
 $ conda search --full-name python
 ```
+[comment]: <test>
