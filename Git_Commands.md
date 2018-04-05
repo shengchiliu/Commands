@@ -49,7 +49,7 @@ $ git push -u --force origin master
 ```
 ---
 
-# Commands for Files
+### Commands for Files
 ```sh
 # Update File
 $ git commit -am "YOUR COMMENT"             # update an existing file
@@ -68,7 +68,7 @@ $ rm -rf FILE_NAME.XXX                      # delete file in local system
 ```
 ---
 
-# Commands for Branch
+### Commands for Branch
 ```sh
 $ git branch                                # list all branches
 $ git branch BRANCH_NAME                    # create a new branch
