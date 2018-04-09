@@ -15,7 +15,7 @@
 | **find** | find files of a specified name or type ||
 | **finger** | display information about a user ||
 | **ftp** | file transfer program ||
-| **grep** | searches files for a specified string or expres|sion |
+| **grep** | searches files for a specified string or expression ||
 | **kill** | kill a process ||
 | **lpr** | print out a file ||
 | **ls** | list names of files in a directory ||
@@ -23,7 +23,7 @@
 | **mkdir** | make a directory ||
 | **more** | scan through a text file page by page ||
 | **mv** | move or rename files or directories ||
-| **nice** | change the priority at which a job is being run| |
+| **nice** | change the priority at which a job is being run ||
 | **passwd** | change your password ||
 | **ps** | list processes ||
 | **pwd** | display the name of your current directory ||
