@@ -5,7 +5,7 @@
 | **cat** | display or concatenate files ||
 | **cd** | change directory ||
 | **chmod** | change the permissions on a file or directory ||
-| **chown** | change owner | ```sh $ sudo chown YOUR_NAME FILE_NAME``` |
+| **chown** | change owner | ```$ sudo chown YOUR_NAME FILE_NAME``` |
 | **compress** | compress a file ||
 | **cp** | copy a file ||
 | **date** | display the current date and time ||
