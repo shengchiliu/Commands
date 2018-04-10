@@ -90,3 +90,14 @@ $ git pull
 $ git branch BRANCH_NAME                                # create a new branch (avoid to use master)
 $ git checkout BRANCH_NAME
 ```
+---
+
+### Commands for Commit
+```sh
+# Show Commit
+$ git show
+$ git log -1
+
+# Amend Commit
+git commit --amend -m "NEW COMMIT MESSAGE"
+```
