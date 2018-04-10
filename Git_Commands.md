@@ -99,5 +99,5 @@ $ git show
 $ git log -1
 
 # Amend Commit
-git commit --amend -m "NEW COMMIT MESSAGE"
+git commit --amend -m "NEW COMMIT MESSAGE"              # amend the most recent commit message
 ```
