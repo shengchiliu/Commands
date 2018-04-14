@@ -4,6 +4,7 @@
 ```sh
 $ git config --global user.name "USERNAME"
 $ git config --global user.email "USERNAME@EMAIL.COM"
+$ git config --list                                             # list config settings
 
 # Cache your GitHub password in Git (Linux only)
 $ git config --global credential.helper cache                   # password cached by default 15 minutes
