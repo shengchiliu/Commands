@@ -2,8 +2,8 @@
 
 ### Initial Settings
 ```sh
-$ git config --global user.name "USERNAME"
-$ git config --global user.email "USERNAME@EMAIL.COM"
+$ git config --global user.name "USERNAME"                      # set up user name
+$ git config --global user.email "USERNAME@EMAIL.COM"           # set up user email
 $ git config --list                                             # list config settings
 
 # Cache your GitHub password in Git (Linux only)
