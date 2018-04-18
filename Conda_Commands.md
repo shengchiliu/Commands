@@ -14,11 +14,13 @@ $ conda info --envs                                                     # --envs
 # Create Environment
 $ conda create --name ENVIRONMENT_NAME                                  # --name or -n
 $ conda create --name ENVIRONMENT_NAME python=3.5                       # create a specific python environment
-$ conda create --name ENVIRONMENT_NAME_NEW --clone ENVIRONMENT_NAME_OLD # clone an environment
 
 # Activate/Deactivate Environment
 $ source activate ENVIRONMENT_NAME                                      # (Windows) activate ENVIRONMENT_NAME
 $ source deactivate                                                     # (Windows) deactivate
+
+# Duplicate Environment
+$ conda create --name ENVIRONMENT_NAME_NEW --clone ENVIRONMENT_NAME_OLD # clone an environment
 
 # Delete Environment
 $ conda remove --name ENVIRONMENT_NAME --all
