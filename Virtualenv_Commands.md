@@ -1,6 +1,9 @@
 # Basic Virtualenvwrapper Commands
 
 ```sh
+# Create an isolated Python environment
+$ virtualenv ENV_NAME
+
 # Create a environment
 $ mkvirtualenv ENV_NAME
 
