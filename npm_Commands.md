@@ -30,6 +30,9 @@ $ npm uninstall PACKAGE_NAME --save
 $ npm uninstall PACKAGE_NAME --save-dev
 $ npm uninstall *                           # delete all local npm package inside node_modules folder
 
+# Uninstall All Dependencies Listed in package.json
+$ npm uninstall `ls -1 node_modules | tr '/\n' ' '` '`
+
 # Prune Package
 $ npm prune
 
