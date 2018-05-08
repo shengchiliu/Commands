@@ -100,5 +100,9 @@ $ git show
 $ git log -1
 
 # Amend Commit
-git commit --amend -m "NEW COMMIT MESSAGE"              # amend the most recent commit message
+$ git commit --amend -m "NEW COMMIT MESSAGE"              # amend the most recent commit message
+
+# Unstage Commit (Undo git add)
+$ git reset .
+$ git reset -- FILE1 FILE2 FILE3
 ```
