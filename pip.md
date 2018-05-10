@@ -2,8 +2,10 @@
 ```sh
 # Upgrade Package
 $ pip install --upgrade pip
-$ python2 -m pip install --upgrade pip
-$ python3 -m pip install --upgrade pip
+$ pip install --upgrade PACKAGE
+
+$ python2 -m pip install --upgrade PACKAGE
+$ python3 -m pip install --upgrade PACKAGE
 
 # Install Package
 $ pip install PACKAGE

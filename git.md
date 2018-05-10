@@ -1,6 +1,7 @@
 # Basic Git Commands
 
 ### Initial Settings
+
 ```sh
 $ git config --global user.name "USERNAME"                      # set up user name
 $ git config --global user.email "USERNAME@EMAIL.COM"           # set up user email
@@ -10,9 +11,11 @@ $ git config --list                                             # list config se
 $ git config --global credential.helper cache                   # password cached by default 15 minutes
 $ git config --global credential.helper 'cache --timeout=3600'  # set a longer timeout, 1 hour
 ```
+
 ---
 
 ### Commands for Repository
+
 ```sh
 # Create Repository
 # (add a new repository on your GitHub first, and then type the following commands)
@@ -48,10 +51,25 @@ $ git add .
 $ git commit -m "YOUR COMMENT"
 $ git remote add origin https://github.com/USERNAME/REPOSITORY.git
 $ git push -u --force origin master
+
+
+# Revert Git Repository to a Previous Commit
+$ git log
+
+# Reverting Working Copy to the Lost Commit
+$ git reset --hard HEAD                                 # last commit in your current branch
+
+# Reverting working Copy to an Older Commit
+$ git reset YOURCOMMITCODE
+$ git reset --soft HEAD@{1}                             # Moves pointer back to previous HEAD
+$ git commit -m "Revert to YOURCOMMITCODE"
+$ git reset --hard                                      # Updates working copy to reflect the new commit
 ```
+
 ---
 
 ### Commands for Files
+
 ```sh
 # Update File
 $ git commit -am "YOUR COMMENT"                         # update an existing file
@@ -68,9 +86,11 @@ $ git commit -m "YOUR COMMENT"                          #
 $ git push -u origin master                             # delete file in remote reporsitory
 $ rm -rf FILE_NAME.XXX                                  # delete file in local system
 ```
+
 ---
 
 ### Commands for Branch
+
 ```sh
 $ git branch                                            # list all branches
 $ git branch BRANCH_NAME                                # create a new branch
@@ -91,9 +111,11 @@ $ git pull
 $ git branch BRANCH_NAME                                # create a new branch (avoid to use master)
 $ git checkout BRANCH_NAME
 ```
+
 ---
 
 ### Commands for Commit
+
 ```sh
 # Show Commit
 $ git show
