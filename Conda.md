@@ -1,12 +1,16 @@
 # General Conda Commands
 
 ### Update Conda
+
 ```sh
 $ conda update conda
 $ conda update --all
 ```
+
 ---
+
 ### Commands for Environment
+
 ```sh
 # List Environments
 $ conda info --envs                                                     # --envs or -e
@@ -24,9 +28,13 @@ $ conda create --name ENVIRONMENT_NAME_NEW --clone ENVIRONMENT_NAME_OLD # clone 
 
 # Delete Environment
 $ conda remove --name ENVIRONMENT_NAME --all
+
 ```
+
 ---
+
 ### Commands for Package
+
 ```sh
 # List Package
 $ conda list
