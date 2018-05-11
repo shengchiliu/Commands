@@ -1,6 +1,7 @@
 # tmux Commands and Shortcuts
 
 ### Commands
+
 ```sh
 # Create Session
 $ tmux                                  # create a session
@@ -25,8 +26,10 @@ $ tmux kill-session -t SESSION_NAME     # kill a specific session
 $ tmux ls                               # list all sessions
 ```
 
---------------------------------------------------------------------------------
+---
+
 ### Shortcuts
+
 | Description | Shortcuts (used inside tmux) |
 | ------ | ------ |
 | Create session | **Ctrl+b, :new<CR>** |

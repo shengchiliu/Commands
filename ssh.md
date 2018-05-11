@@ -1,4 +1,5 @@
 # Basic SSH Commands
+
 ```sh
 $ ssh USERNAME@IP_ADDRESS                       # access a remote system
 $ ssh -Y USERNAME@IP_ADDRESS                    # using graphical applications remotely
