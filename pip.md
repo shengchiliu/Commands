@@ -1,4 +1,5 @@
 # General pip Commands
+
 ```sh
 # Upgrade Package
 $ pip install --upgrade pip
