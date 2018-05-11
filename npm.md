@@ -11,9 +11,11 @@ $ npm help npm                              # involived overview
 $ npm COMMAND -h                            # quick help on the command
 $ npm help-search update
 ```
+
 ---
 
 ### Install npm Package
+
 ```sh
 # Install Package
 $ npm install PACKAGE_NAME                  # install package locally
@@ -45,9 +47,11 @@ $ npm list
 $ npm list --depth 0
 $ npm list --global true --depth 0
 ```
+
 ---
 
 ### Create nmp Module
+
 ```sh
 # Initilse
 $ npm init
