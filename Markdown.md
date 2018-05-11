@@ -1,6 +1,7 @@
 # General Markdown Commands
 
 #### Styling Text
+
 ```
 **Bold**
 *Italic*
@@ -9,17 +10,21 @@
 ```
 
 #### Comment
+
 ```
 [comment]: <put comments here!>
 ```
+
 [comment]: <https://github.com/flot/flot/blob/master/API.md>
 
 #### Quoting text
+
 ```
 > Put text here
 ```
 
 #### Code Block
+
 ````
 ```
 Put code here
@@ -27,11 +32,13 @@ Put code here
 ````
 
 #### Link
+
 ```
 [website](https://www.website.com/)
 ```
 
 #### Nested Lists
+
 ```
 1. Item
    - 1st Nested Item
@@ -39,16 +46,19 @@ Put code here
 ```
 
 #### Escape Sign (\\)
+
 ```
 \[ escape square brackets \]
 ```
 
 #### Escape Angled Brackets
+
 ```
 &lt; angled brackets &gt;
 ```
 
 #### Escape Code Blocks
+
 `````
 ````
 ```
