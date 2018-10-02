@@ -34,6 +34,7 @@ $ git push -u origin master                             # update to your remote 
 
 # Clone Repository
 $ git clone https://github.com/USERNAME/REPOSITORY.git
+$ git clone --recursive https://github.com/USERNAME/REPOSITORY.git  # including submodules 
 $ git pull
 
 # Rename Repository
@@ -94,7 +95,7 @@ $ rm -rf FILE_NAME.XXX                                  # delete file in local s
 ```sh
 $ git branch                                            # list all branches
 $ git branch BRANCH_NAME                                # create a new branch
-$ git checkout BRANCH_NAME                              # switch a branch to another
+$ git checkout BRANCH_NAME                              # switch a branch to another ($ git checkout v0.4.0  # back to a old version)
 $ git checkout -b BRANCH_NAME                           # shorthand for create and switch branch
 $ git branch -d BRANCH_NAME                             # delete a branch
 
