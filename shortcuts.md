@@ -1,7 +1,4 @@
 # MacOS
 
-```
-# Show Hidden Files
-<kbd>Shift</kbd> + <kbd>Command</kbd> + .
-
-```
+## Show Hidden Files
+<kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>.</kbd>
