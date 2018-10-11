@@ -17,7 +17,7 @@ $ conda info --envs                                                     # --envs
 
 # Create Environment
 $ conda create --name ENVIRONMENT_NAME                                  # --name or -n
-$ conda create --name ENVIRONMENT_NAME python=3.5                       # create a specific python environment
+$ conda create --name ENVIRONMENT_NAME python=3.6                       # create a specific python environment
 
 # Activate/Deactivate Environment
 $ source activate ENVIRONMENT_NAME                                      # (Windows) activate ENVIRONMENT_NAME
