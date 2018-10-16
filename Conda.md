@@ -51,3 +51,4 @@ $ conda remove PACKAGE_NAME                                             # remove
 $ conda search PACKAGE_NAME                                             # show Python versions
 $ conda search --full-name python
 ```
+
