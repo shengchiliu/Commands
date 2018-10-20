@@ -22,3 +22,21 @@ sudo dmidecode -t processor
 sudo dmidecode -t memory
 sudo dmidecode --type 17 | grep Size
 ```
+
+---
+
+## Install deb File
+
+```sh
+$ sudo dpkg -i /path/to/deb/file
+$ sudo apt-get install -f
+```
+
+## Find a Specific Word inside Text File
+
+```sh
+grep -r SEARCH_WORD *
+```
+
+---
+
