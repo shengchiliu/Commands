@@ -35,18 +35,3 @@
 | **wc** | display a count of lines, words and characters ||
 
 * This index of commands is originally from a leaflet called *Thirty Useful Unix Commands* written by the University of Cambridge Information Services (UIS).
-
----
-
-## Install deb File
-
-```sh
-$ sudo dpkg -i /path/to/deb/file
-$ sudo apt-get install -f
-```
-
-## Find a Specific Word inside Text File
-
-```sh
-grep -r SEARCH_WORD *
-```
