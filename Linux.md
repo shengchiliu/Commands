@@ -35,8 +35,13 @@ $ sudo apt-get install -f
 ## Find a Specific Word inside Text File
 
 ```sh
-grep -r SEARCH_WORD *
+$ grep -r <SEARCH_WORD> *
+```
+
+## Find a Specific File
+
+```sh
+$ find ./ -name "FILENAME"
 ```
 
 ---
-
