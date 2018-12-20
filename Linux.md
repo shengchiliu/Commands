@@ -47,7 +47,7 @@ $ find ./ -name "FILENAME"
 ## Zip/Unzip Files
 
 ```sh
-$ tar -zcvf <FILENAME>.tgz <./>   # Zip Files
+$ tar -zcvf <FILENAME>.tgz <./DIRECTORY>   # Zip Files
 
 $ tar -zxvf <FILENAME>.tgz        # Unzip Files
 ```
