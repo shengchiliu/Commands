@@ -44,4 +44,12 @@ $ grep -r <SEARCH_WORD> *
 $ find ./ -name "FILENAME"
 ```
 
+## Zip/Unzip Files
+
+```sh
+$ tar -zcvf <FILENAME>.tgz <./>   # Zip Files
+
+$ tar -zxvf <FILENAME>.tgz        # Unzip Files
+```
+
 ---
