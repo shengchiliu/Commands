@@ -48,12 +48,12 @@ $ find ./ -name "FILENAME"
 
 ```sh
 # tgz Files
-$ tar -zcvf <FILENAME>.tgz <./DIRECTORY>    # Zip Files
-$ tar -zxvf <FILENAME>.tgz                  # Unzip Files
+$ tar -zcvf <FILENAME>.tgz <./DIRECTORY>      # Zip Files
+$ tar -zxvf <FILENAME>.tgz                    # Unzip Files
 
 # zip Files
 $ 
-$ unzip <FILENAME>.zip -d <FILENAME_FOLDER>
+$ unzip <FILENAME>.zip -d <FILENAME_FOLDER>   # Unzip Files
 
 ```
 
