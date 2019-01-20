@@ -52,7 +52,7 @@ $ tar -zcvf <FILENAME>.tgz <./DIRECTORY>      # Zip Files
 $ tar -zxvf <FILENAME>.tgz                    # Unzip Files
 
 # zip Files
-$ 
+$ zip -r <FILENAME>.zip <FOLDER_DIRECTORY>    # Zip Folder
 $ unzip <FILENAME>.zip -d <FILENAME_FOLDER>   # Unzip Files
 
 ```
