@@ -36,6 +36,8 @@ $ git push -u origin master                             # update to your remote 
 $ git clone https://github.com/USERNAME/REPOSITORY.git
 $ git clone --recursive https://github.com/USERNAME/REPOSITORY.git  # including submodules 
 $ git clone --recursive -b BRANCH REPOSITORY            # clone a specific branch of repo
+$ git clone --depth 1 --single-branch                   # clone a 1 history commit with only master branch
+$ git clone --depth 2 --no-single-branch                # clone a 2 history commits with all branchs
 $ git pull
 
 # Rename Repository
