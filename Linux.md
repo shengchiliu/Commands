@@ -66,3 +66,16 @@ $ sudo curl -o /usr/local/bin/imgcat -O https://iterm2.com/utilities/imgcat && s
 ```
 
 ---
+
+## Shortcuts
+
+- Ctrl + A or Home: Go to the beginning of the line.
+- Ctrl + E or End: Go to the end of the line.
+
+- Alt + B: Go left (back) one word.
+- Alt + F: Go right (forward) one word.
+
+- option/alt + Left Arrow or Right Arrow
+
+- Ctrl + B: Go left (back) one character.
+- Ctrl + F: Go right (forward) one character.
