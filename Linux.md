@@ -75,7 +75,7 @@ $ sudo curl -o /usr/local/bin/imgcat -O https://iterm2.com/utilities/imgcat && s
 - Alt + B: Go left (back) one word.
 - Alt + F: Go right (forward) one word.
 
-- <kbd>Option<kbd>/<kbd>Alt<kbd>  + Left Arrow or Right Arrow
+- <kbd>Option</kbd>/<kbd>Alt</kbd>  + Left Arrow or Right Arrow
 
 - Ctrl + B: Go left (back) one character.
 - Ctrl + F: Go right (forward) one character.
