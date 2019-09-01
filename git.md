@@ -56,6 +56,8 @@ $ git commit -m "YOUR COMMENT"
 $ git remote add origin https://github.com/USERNAME/REPOSITORY.git
 $ git push -u --force origin master
 
+# List Directory Managed by git
+$ git ls-files
 
 # Revert Git Repository to a Previous Commit
 $ git log
