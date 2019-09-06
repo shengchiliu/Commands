@@ -12,7 +12,7 @@ $ conda update --all
 ### Commands for Environment
 
 ```sh
-# List Environments
+# List All Environments
 $ conda info --envs                                                     # --envs or -e
 
 # Create Environment
