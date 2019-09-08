@@ -79,3 +79,11 @@ $ sudo curl -o /usr/local/bin/imgcat -O https://iterm2.com/utilities/imgcat && s
 
 - <kbd>Ctrl</kbd> + <kbd>B</kbd>: Go left (back) one character.
 - <kbd>Ctrl</kbd> + <kbd>F</kbd>: Go right (forward) one character.
+
+---
+
+## Symbolic Links
+
+```sh
+$ ln -s </path/to/file_or_folder-name> <link-name>
+```
