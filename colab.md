@@ -1,5 +1,7 @@
 # Colab
 
+## Shortcuts
+
 Show keyboard shortcuts: Ctrl/Cmd + M + H
 
 | Actions | Colab | Jupyter |
@@ -14,3 +16,13 @@ Show keyboard shortcuts: Ctrl/Cmd + M + H
 | Split at cursor | Ctrl/Cmd M - | Ctrl Shift -
 
 Ref. https://medium.com/@tuewithmorris/google-colab-notebooks-keyboard-shortcuts-aa6a008fb91b
+
+---
+
+## Magic Commands
+
+```colab
+# Show Python Version
+
+!python -V
+```
