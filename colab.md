@@ -26,3 +26,17 @@ Ref. https://medium.com/@tuewithmorris/google-colab-notebooks-keyboard-shortcuts
 
 !python -V
 ```
+
+---
+
+## Open ipynb by Colab
+
+```
+# Original Link
+https://github.com/random-forests/temp/blob/master/decision_tree_exercise.ipynb
+
+# Modified Link
+https://colab.research.google.com/github/random-forests/temp/blob/master/decision_tree_exercise.ipynb
+```
+
+##
