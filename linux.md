@@ -87,3 +87,10 @@ $ sudo curl -o /usr/local/bin/imgcat -O https://iterm2.com/utilities/imgcat && s
 ```sh
 $ ln -s </path/to/file_or_folder-name> <link-name>
 ```
+
+## bash or zsh
+
+``sh
+$ chsh -s /bin/zsh
+$ chsh -s /bin/bash
+```
