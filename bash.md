@@ -76,3 +76,5 @@ On_IPurple='\033[0;105m'  # Purple
 On_ICyan='\033[0;106m'    # Cyan
 On_IWhite='\033[0;107m'   # White
 ```
+
+Ref: https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux
