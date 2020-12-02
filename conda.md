@@ -29,6 +29,9 @@ $ conda create --name <ENVIRONMENT_NAME_NEW> --clone <ENVIRONMENT_NAME_OLD> # cl
 # Delete Environment
 $ conda remove --name <ENVIRONMENT_NAME> --all
 
+# Change Python Version
+$ conda search python                                                   # search a python version you want
+$ conda install python=3.7.3                                            # install the version of python
 ```
 
 ---
