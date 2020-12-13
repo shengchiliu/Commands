@@ -44,7 +44,7 @@ $ grep -r <SEARCH_WORD> *
 $ find ./ -name "FILENAME"
 ```
 
-## Zip/Unzip Files
+## Zip/Unzip File
 
 ```sh
 # tgz Files
@@ -56,13 +56,13 @@ $ zip -r <FILENAME>.zip <FOLDER_DIRECTORY>    # zip folder
 $ unzip <FILENAME>.zip -d <FILENAME_FOLDER>   # unzip files
 ```
 
-## Install 
+## Install File
 
 ```sh
 tar -xvf <FILENAME.tar.xz>                    # install .tar.xz file
 ```
 
-## Download Files
+## Download File
 
 ```sh
 $ curl -o <FOLDER/FILENAME> -O <https://www...>
