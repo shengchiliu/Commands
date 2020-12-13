@@ -54,7 +54,12 @@ $ tar -zxvf <FILENAME>.tgz                    # unzip files
 # zip Files
 $ zip -r <FILENAME>.zip <FOLDER_DIRECTORY>    # zip folder
 $ unzip <FILENAME>.zip -d <FILENAME_FOLDER>   # unzip files
+```
 
+## Install 
+
+```sh
+tar -xvf <FILENAME.tar.xz>                    # install .tar.xz file
 ```
 
 ## Download Files
