@@ -56,7 +56,7 @@ $ zip -r <FILENAME>.zip <FOLDER_DIRECTORY>    # zip folder
 $ unzip <FILENAME>.zip -d <FILENAME_FOLDER>   # unzip files
 ```
 
-## Install File
+## Install .tar.xz File
 
 ```sh
 tar -xvf <FILENAME.tar.xz>                    # install .tar.xz file
@@ -98,4 +98,11 @@ $ ln -s </path/to/file_or_folder-name> <link-name>
 ``sh
 $ chsh -s /bin/zsh
 $ chsh -s /bin/bash
+```
+
+## Count Files
+
+``sh
+ls | wc -l
+ls /etc | wc -l
 ```
