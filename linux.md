@@ -95,7 +95,7 @@ $ ln -s </path/to/file_or_folder-name> <link-name>
 
 ## bash or zsh
 
-``sh
+```sh
 $ chsh -s /bin/zsh
 $ chsh -s /bin/bash
 ```
