@@ -1,6 +1,6 @@
 # Install ttyecho
 
-1. Download ttyecho.c
+1. Download [ttyecho.c](https://github.com/cjbrigato/ttyecho/blob/master/ttyecho.c)
 2. $ make ttyecho
 3. $ sudo mv ttyecho /bin/
 
