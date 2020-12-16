@@ -106,3 +106,8 @@ $ chsh -s /bin/bash
 ls | wc -l
 ls /etc | wc -l
 ```
+
+## Make directory if doesn't exist
+```sh
+mkdir -p foo/intermediate/dir
+```
