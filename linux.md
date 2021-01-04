@@ -111,3 +111,10 @@ ls /etc | wc -l
 ```sh
 mkdir -p foo/intermediate/dir
 ```
+
+## Install .sh File
+
+```sh
+$ chmod +x file.sh
+$ ./file.sh
+```
