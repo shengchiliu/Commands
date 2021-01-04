@@ -118,3 +118,9 @@ mkdir -p foo/intermediate/dir
 $ chmod +x file.sh
 $ ./file.sh
 ```
+
+## Display total size of a directory
+
+```sh
+$ du -hs ./directory/
+```
