@@ -126,7 +126,7 @@ $ du -hs ./directory/
 ```
 
 ## .bashrc at ssh login
-.bashrc is not sourced when logging in using SSH. Need to source it in .bash_profile
+.bashrc is not sourced when login using SSH. Need to source it in .bash_profile
 ```sh
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
