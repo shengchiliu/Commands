@@ -124,3 +124,12 @@ $ ./file.sh
 ```sh
 $ du -hs ./directory/
 ```
+
+## .bashrc at ssh login
+.bashrc is not sourced when logging in using SSH. Need to source it in .bash_profile
+```sh
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
+```
+ref. https://stackoverflow.com/questions/820517/bashrc-at-ssh-login/820533#820533
