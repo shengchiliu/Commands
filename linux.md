@@ -133,3 +133,10 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 ref. https://stackoverflow.com/questions/820517/bashrc-at-ssh-login/820533#820533
+
+## Detector txt encording type
+
+```
+# uchardet is an encoding detector library
+uchardet <FILENAME>
+```
